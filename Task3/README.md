@@ -1,4 +1,4 @@
-#CALCULATOR
+# Calculator
 Level 1 Task 3 project—a basic calculator built with HTML, CSS, and JavaScript! 🧮💻
 
 🔢 Implemented an interactive interface with buttons for addition, subtraction, multiplication, and division.
