@@ -1,0 +1,93 @@
+.calculator-container {
+  display: grid;
+  grid-template-columns: repeat(5, repeat(4, 1fr));
+
+  gap: 2px;
+  max-width: 20vw;
+  margin: 173px auto;
+  cursor: pointer;
+  padding: 32px;
+  border: 4px solid black;
+  border-radius: 73px;
+  cursor: pointer;
+  padding: 37px;
+  border: 3px solid black;
+  border-radius: 74px;
+  
+  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+  1px 2px 4px 0px rgba(0,255,255,0.7),
+  2px 4px 8px 0px rgba(0,255,255,0.7),
+  2px 4px 16px 0px rgba(0,255,255,0.7);
+
+
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: black;
+}
+
+
+.display {
+  /* grid-column: 1 / span 4; */
+  grid-template-rows: repeat(5, 1fr);
+  background-color: #b7c3c3;
+  padding: 10px;
+  text-align: right;
+  font-size: 24px;
+  width: 304px;
+  font-size: 42px;
+  margin: 0;
+  padding: 8px 0px;
+  border: 3px solid black;
+  border-radius: 13px;
+  
+ 
+}
+
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(242, 238, 238);
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(0,0,0,0.5);
+  border: solid 1px rgb(49, 45, 45);
+  color: white;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.operator {
+  background-color: #f1f1f1;
+}
+
+.equal {
+  background-color: #f1f1f1;
+  
+  grid-column: 3 / span 2;
+  grid-row: span 2; 
+}
+
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  
+  margin: 28px;
+}
